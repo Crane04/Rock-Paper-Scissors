@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+ <link rel="stylesheet" href="rps.css">
+</head>
+<body>
+    <div class="container">
+        <div class="options">
+            <div id="img">
+                <img src="icon-rock.svg" alt="Rock" class="game" onclick="rock()"><br>
+                <img src="icon-paper.svg" alt="Paper" class="game" onclick="paper()">
+                <img src="icon-scossors.svg" alt="Scissors" class="game" onclick="scissors()">
+            </div>
+        </div>
+        <div class="decision">
+            <div id="player1">
+                <span>Player 1</span>
+                <div id="image1"></div>
+            </div>
+            <span id="countdown"></span>
+            <div id="computer">
+                <span>Computer</span>
+                <div id="image2"></div>
+            </div>
+        </div><br>
+        <div class="score">
+            <h3>Score Sheet</h3>
+            <div id="p1">
+                <span>Player 1</span>
+                <p id="playerScore">0</p>
+            </div>
+            <div id="c1">
+                
+                <span>Computer</span>
+                <p id="computerScore">0</p>
+
+        </div>
+       
+    </div>
+    <div id="buttons">
+        <button onclick="location.reload()">Play Again</button>
+        <button onclick="quit()">Quit</button>
+        <button onclick="how()">How To Play</button>
+    </div>
+    </div>
+    <script src="rps.js">
+        
+    </script>
+</body>
+</html>
