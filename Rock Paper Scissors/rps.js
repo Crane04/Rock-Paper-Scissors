@@ -26,7 +26,7 @@ let image1=document.getElementById("image1")
         }*/
         let a=`<img src="icon-rock.svg">`
         let b=`<img src="icon-paper.svg">`
-        let c=`<img src="icon-scissors.svg">`
+        let c=`<img src="icon-scossors.svg">`
 
         function rock(){
          //image1.innerHTML=a 
